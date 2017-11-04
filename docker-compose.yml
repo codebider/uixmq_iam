@@ -1,0 +1,14 @@
+version: '2'
+services:
+
+  db:
+    image: postgres
+    volumes:
+      - ./${ENVIRONMENT}/dbdata:/var/lib/postgresql/data2
+    environment:
+      POSTGRES_USER: calendar_db
+      POSTGRES_PASSWORD: calendar@123
+      POSTGRES_DB: calendar_db
+
+  proxy:
+    image: nginx:1.10.2

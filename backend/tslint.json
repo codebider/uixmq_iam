@@ -1,0 +1,45 @@
+{
+    "extends": [
+        "tslint:recommended"   
+    ],
+    "rulesDirectory": ["src"],
+    "rules": {
+        "max-line-length": {
+            "options": [144]
+        },
+        "no-consecutive-blank-lines": false,
+        // "indent": [true, "tabs", 4],
+        "quotemark": [false],
+        "eofline": true,
+        "no-var-requires": false,
+        "ordered-imports": false,
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case", "allow-snake-case"],
+        "trailing-comma": [false],
+        "semicolon": [false],
+        "only-arrow-functions": false,
+        "no-shadowed-variable": false,
+        "no-console": [false],
+        "whitespace": [
+            false,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ],
+        "object-literal-shorthand": false,
+        "curly": false,
+        "object-literal-sort-keys": false,
+        "no-angle-bracket-type-assertion": false,
+        "object-literal-key-quotes": [false, "as-needed"],
+        "interface-name": [false],
+        "no-string-literal": false,
+        "member-ordering": [false, {"order": "fields-first"}],
+        "no-empty-interface": false,
+        "max-classes-per-file": [true, 10],
+        "one-variable-per-declaration": false,
+        "new-parens": false,
+        "array-type": [false],
+        "no-unused-expression": false
+    }
+}

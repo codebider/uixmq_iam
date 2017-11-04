@@ -1,0 +1,37 @@
+[
+    {
+        "email": "admin@gmail.com",
+        "password": "abc@123",
+        "username": "admin",
+        "type": "admin",
+        "name": "Admin"
+    },
+    {
+        "email": "client1@gmail.com",
+        "password": "abc@123",
+        "username": "client1",
+        "type": "client",
+        "name": "client1"
+    },
+    {
+        "email": "client2@gmail.com",
+        "password": "abc@123",
+        "username": "client2",
+        "type": "client",
+        "name": "client2"
+    },
+    {
+        "email": "coach1@gmail.com",
+        "password": "abc@123",
+        "username": "coach1",
+        "type": "coach",
+        "name": "coach1"
+    },
+    {
+        "email": "coach2@gmail.com",
+        "password": "abc@123",
+        "username": "coach2",
+        "type": "coach",
+        "name": "coach2"
+    }
+]
